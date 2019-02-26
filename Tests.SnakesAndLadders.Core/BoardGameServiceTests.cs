@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using SnakesAndLadders.Core;
 using SnakesAndLadders.Models;
 
 namespace Tests.SnakesAndLadders.Core
