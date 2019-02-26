@@ -19,5 +19,20 @@ namespace Tests.SnakesAndLadders.Models
             // Then
             Assert.AreEqual(token.SquarePosition, expectedSquarePosition);
         }
+
+        [TestMethod]
+        public void Given_Token_Is_On_Square_1_When_Moved_By_3_Then_Token_Is_On_Square_4()
+        {
+            // Given
+            var token = new Token();
+
+            var expectedSquarePosition = 4;
+
+            // When
+            token.Move(4);
+
+            // Then
+            Assert.AreEqual(expectedSquarePosition, token.SquarePosition);
+        }
     }
 }
