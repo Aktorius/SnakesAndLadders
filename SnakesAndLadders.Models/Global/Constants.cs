@@ -2,7 +2,7 @@
 {
     public static class Constants
     {
-        public const int diceFaces = 6;
-        public const int numberOfSquares = 100;
+        public const int DiceFaces = 6;
+        public const int NumberOfSquares = 100;
     }
 }
