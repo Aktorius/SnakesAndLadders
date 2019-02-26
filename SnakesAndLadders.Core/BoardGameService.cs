@@ -28,7 +28,7 @@ namespace SnakesAndLadders.Core
 
         private void CheckIfGamesIsWon(Token token)
         {
-            _isGameWon = token.SquarePosition == Constants.numberOfSquares;
+            _isGameWon = token.SquarePosition == Constants.NumberOfSquares;
         }
     }
 }
