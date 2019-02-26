@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using SnakesAndLadders.Core;
 
 namespace Tests.SnakesAndLadders.Core
 {
@@ -16,7 +17,7 @@ namespace Tests.SnakesAndLadders.Core
             var expectedHigherBound = 6;
 
             // When
-            var result = diceService.RollDie();
+            var result = diceService.RollDie(diceFaces);
 
             // Then
             Assert.IsTrue(expectedLowerBound <= result);
