@@ -1,6 +1,7 @@
 ﻿using System.Data;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SnakesAndLadders.Models;
+using SnakesAndLadders.Models.Extensions;
 
 namespace Tests.SnakesAndLadders.Models
 {
@@ -29,7 +30,7 @@ namespace Tests.SnakesAndLadders.Models
             var expectedSquarePosition = 4;
 
             // When
-            token.Move(4);
+            token.Move(3);
 
             // Then
             Assert.AreEqual(expectedSquarePosition, token.SquarePosition);
